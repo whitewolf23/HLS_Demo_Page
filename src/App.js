@@ -1,25 +1,42 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {BrowserRouter as Router, Route, Link} from 'react-router-dom'
+import "App.css"
+import { HLS, Player, Riple, Shaka, Griffith}from 'components/pages'
+
+// const HLS = ({url}) => {
+//   console.log(url)
+//   return (
+//     <div>
+//       {url}
+//     </div>
+//   )
+// }
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      {/* 헤더 */}
+      <div className="header">
+        <Link to="/reactplayer" className="menu">React Player</Link>
+        <Link to="/reacthlsplayer" className="menu">React HLS Player</Link>
+        <Link to="/shaka" className="menu">Shaka Player</Link>
+        <Link to="/replay" className="menu">Replay</Link>
+        <Link to="/griffith" className="menu">Griffith</Link>
+
+
+      </div>
+    {/* 컨테이너 */}
+      <div className="container"> 
+        <Route exact path="/reactplayer" component={Player}  /> 
+        <Route exact path="/reacthlsplayer" component={HLS} /> 
+        <Route exact path="/shaka" component={Shaka}  /> 
+        <Route exact path="/replay" component={Riple} /> 
+        <Route exact path="/griffith" component={Griffith} /> 
+
+      </div>
+
+    </Router>
   );
 }
 

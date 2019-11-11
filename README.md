@@ -11,10 +11,11 @@
 - Chrome, Firefox 는  CORS 방지 확장 프로그램 설치 후 테스트 진행 
 
 ## 체크리스트
-| 목차 | HLS | Shaka | Replay |Griffth | React Player  |
+| 목차 | HLS-Player (HLS) | Shaka | Replay | Griffth | React Player  |
 |:--------|:--------:|--------:|--------:|--------:|--------:|
 | Chrome | O | X | O | X | 0 |
 | Firefox | O | X | O |X | 0 |
-| Safari | X | X | X |O | 0 |
-| Edge | O | X | O | X | 0 |
+| IE11 | -- | -- | -- | -- | -- |
+| Safari | X | X | X | O | X |
+| Edge | -- | -- | -- | -- | -- |
 | 1OS - Webkit | X | X | X | O | 0 |

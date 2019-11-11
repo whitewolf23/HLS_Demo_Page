@@ -1,7 +1,7 @@
 import React from 'react'
 import ShakaPlayer from 'shaka-player-react';
 
-const testUrl = 'https://d50mxyhpwb8oh.cloudfront.net/test/Yeon2/jh+jh+jh.m3u8' 
+const testUrl = '' 
 const options = {
     width: {
         min: 640,

@@ -17,5 +17,5 @@
 | Firefox | O | X | O |X | 0 |
 | IE11 | -- | -- | -- | -- | -- |
 | Safari | X | X | X | O | X |
-| Edge | -- | -- | -- | -- | -- |
+| Edge | -- | -- | -- | O | -- |
 | 1OS - Webkit | X | X | X | O | 0 |

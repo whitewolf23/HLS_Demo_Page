@@ -1,7 +1,7 @@
 import React from 'react';
 import {BrowserRouter as Router, Route, Link} from 'react-router-dom'
 import "App.css"
-import { HLS, Player, Riple, Shaka, Griffith}from 'components/pages'
+import { HLS, Player, Riple, Shaka, Griffith, Pure}from 'components/pages'
 
 // const HLS = ({url}) => {
 //   console.log(url)
@@ -23,6 +23,7 @@ function App() {
         <Link to="/shaka" className="menu">Shaka Player</Link>
         <Link to="/replay" className="menu">Replay</Link>
         <Link to="/griffith" className="menu">Griffith</Link>
+        <Link to="/pure" className="menu">Pure</Link>
 
 
       </div>
@@ -33,6 +34,7 @@ function App() {
         <Route exact path="/shaka" component={Shaka}  /> 
         <Route exact path="/replay" component={Riple} /> 
         <Route exact path="/griffith" component={Griffith} /> 
+        <Route exact path="/pure" component={Pure} /> 
 
       </div>
 

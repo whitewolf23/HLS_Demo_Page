@@ -34,6 +34,9 @@ export default class HlsPure extends Component {
             background: '#000',
         }
         return (
+          <div>
+              <h1>HLSPureProxy</h1> 
+
             <video
                 controls={true}
                 preload="none"
@@ -41,6 +44,8 @@ export default class HlsPure extends Component {
                 ref={player => (this.player = player)}
                 autoPlay={true}
             />
+          </div>
+            
         )
     }
 }

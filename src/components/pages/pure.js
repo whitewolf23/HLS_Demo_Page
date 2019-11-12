@@ -1,7 +1,8 @@
-import React from 'react'
+import React from 'react';
 
 const TestUrl = 'https://d50mxyhpwb8oh.cloudfront.net/test/Yeon2/jh+jh+jh.m3u8' 
 const TestProxyUrl = '/api/test/Yeon2/jh+jh+jh.m3u8'
+
 ;export default function Pure() {
 
     return (

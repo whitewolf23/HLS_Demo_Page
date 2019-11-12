@@ -3,6 +3,17 @@
 ## 목표 
 - Chrome, Firefox, safari, IE11, Edge, iOS - Webkit 에서 구동여부를 파악한다. 
 
+## 브라우저 지원 
+- html5test.com 이라는 곳에서 브라우저의 지원여부를 알 수 있다.
+
+## HLS 지원여부 
+- safari, edge 브라우저는 Hls 가 지원하므로 주소창이나 .m3u8 링크를 실행 가능 
+
+## 이외 브라우져 
+- Chrome, Firefox는 Hls 를 지원하지 않기 때문에, 라이브러리를 이용하여 구현 필요
+- 여기서 CORS 문제가 발생 -> Proxy로 해결 가능 -> 서버측에서 Access-Control-Allow-Origin 를 해결해 주면된다. 
+
+
 ## 2019 11 12 업데이트
 - 프록시 설정 비교를 위해, http-proxy-middleware 를통해 cloudfront 에 요청 처리
 
@@ -16,7 +27,7 @@
 
 
 
-## 체크리스트
+## 체크리스트 (Chrome, Firefox 확장프로그램 이용) -> 재수정 필요
 | 목차 | HLS-Player (HLS) | Shaka | Replay | Griffth | React Player  |
 |:--------|:--------:|--------:|--------:|--------:|--------:|
 | Chrome | O | X | O | X | 0 |

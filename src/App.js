@@ -1,7 +1,7 @@
 import React from 'react';
 import {BrowserRouter as Router, Route, Link} from 'react-router-dom'
 import "App.css"
-import { HLS, Player, Riple, Shaka, Griffith, Pure}from 'components/pages'
+import { HLS, Player, Riple, Shaka, Griffith, Pure, HlsPure, HlsPureProxy}from 'components/pages'
 
 // const HLS = ({url}) => {
 //   console.log(url)
@@ -24,8 +24,10 @@ function App() {
         <Link to="/replay" className="menu">Replay</Link>
         <Link to="/griffith" className="menu">Griffith</Link>
         <Link to="/pure" className="menu">Pure</Link>
+        <Link to="/hlspure" className="menu">HlsPure</Link>
+        <Link to="/hlspureproxy" className="menu">HlsPureProxy</Link>
 
-
+        
       </div>
     {/* 컨테이너 */}
       <div className="container"> 
@@ -35,6 +37,9 @@ function App() {
         <Route exact path="/replay" component={Riple} /> 
         <Route exact path="/griffith" component={Griffith} /> 
         <Route exact path="/pure" component={Pure} /> 
+        <Route exact path="/hlspure" component={HlsPure} /> 
+        <Route exact path="/hlspureproxy" component={HlsPureProxy} /> 
+
 
       </div>
 

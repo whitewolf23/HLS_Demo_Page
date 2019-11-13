@@ -6,6 +6,7 @@ export {default as Pure} from './Pure';
 export {default as HlsPure} from './HlsPure';
 export {default as HlsPureProxy} from './HlsPureProxy';
 export {default as HlsPureMp4} from './HlsPureMp4';
+export {default as HlsPureJW} from './HlsPureJW';
 
 
 

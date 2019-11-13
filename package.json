@@ -70,7 +70,7 @@
   },
   "scripts": {
     "start": "node scripts/start.js",
-    "build": "node scripts/build.js && nelify deploy --prod",
+    "build": "node scripts/build.js && netlify deploy --prod",
     "test": "node scripts/test.js"
   },
   "eslintConfig": {
@@ -86,7 +86,8 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version",
-      "last 1 edge version"
+      "last 1 edge version",
+      "ie 11"
     ]
   },
   "jest": {

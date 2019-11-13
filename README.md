@@ -32,12 +32,5 @@
 
 
 
-## 체크리스트 (Chrome, Firefox 확장프로그램 이용) -> 재수정 필요
-| 목차 | HLS-Player (HLS) | Shaka | Replay | Griffth | React Player  |
-|:--------|:--------:|--------:|--------:|--------:|--------:|
-| Chrome | O | X | O | X | 0 |
-| Firefox | O | X | O |X | 0 |
-| IE11 | -- | -- | -- | -- | -- |
-| Safari | X | X | X | O | X |
-| Edge | -- | -- | -- | O | -- |
-| 1OS - Webkit | X | X | X | O | 0 |
+## 2019 11 13 체크리스트 (IE11, Firefox, Chrome, Safari, Edge) 
+https://www.notion.so/minsukim/50c4dd9549304c919bfaecb1aadb4c76

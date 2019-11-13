@@ -33,7 +33,7 @@ export default class HlsPure extends Component {
         }
         return (
             <div>
-            <h1>HLSPure</h1> 
+            <h1>HLSPureMp4</h1> 
                 <video
                     controls={true}
                     preload="none"

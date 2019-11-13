@@ -107,7 +107,7 @@ export default function Riple() {
           options = {options}
               source={{
                 streamUrl: Mp4Url ,
-                contentType: 'application/x-mpegurl',
+                // contentType: 'application/x-mpegurl',
                 textTracks: [
                   {
                     src: 'public/example-media/subtitles/en.vtt',

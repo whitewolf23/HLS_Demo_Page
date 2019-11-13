@@ -9,7 +9,6 @@ export default class HlsPure extends Component {
   componentDidUpdate() {
     // const TestProxyUrl = '/api/test/Yeon2/jh+jh+jh.m3u8';
     const TestUrl = 'https://d50mxyhpwb8oh.cloudfront.net/test/Yeon2/jh+jh+jh.m3u8';
-    const Mp4Url = "https://smrmembers-smr.smartmediarep.com/smc/smrmembers/single/eng/0/smr/contents/video/2019/09/23/9c045a87e800017024288980773f3e7b_t34.mp4"
 
     if (Hls.isSupported() && this.player) {
       const video = this.player;

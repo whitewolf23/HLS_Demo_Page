@@ -9,13 +9,13 @@ function Player(){
     return (
         <div>
             <h1>ReactPlayer</h1>
-
+{/* playing={true} */}
             <h1>proxy</h1>
-            <ReactPlayer url={TestProxyUrl} controls={true} playing={true} pip={true} />
+            <ReactPlayer url={TestProxyUrl} controls={true}  pip={true} />
             <h1>not proxy</h1>
-            <ReactPlayer url={TestUrl} controls={true} playing={true} pip={true} />
+            <ReactPlayer url={TestUrl} controls={true}  pip={true} />
             <h1>mp4</h1>
-            <ReactPlayer url={Mp4Url} controls={true} playing={true} pip={true} />
+            <ReactPlayer url={Mp4Url} controls={true}  pip={true} />
        </div>
     )
 }
